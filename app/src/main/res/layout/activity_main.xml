@@ -7,10 +7,20 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+
     tools:context="xiaoluo.testapp.MainActivity">
 
     <TextView
+        android:id="@+id/txt_content"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+
+    <TextView
+        android:layout_below="@+id/txt_content"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test app" />
 </RelativeLayout>
